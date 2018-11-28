@@ -1,0 +1,10 @@
+{
+  "name": "tp2",
+  "version": "0.0.1",
+  "description": "Squelette pour le 2nd tp",
+  "main": "index.js",
+  "repository": "https://github.com/erwandf/insa",
+  "author": "EDF",
+  "license": "MIT",
+  "private": false
+}
