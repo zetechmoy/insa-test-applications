@@ -4,7 +4,7 @@
  */
 class Poneys
 {
-    private $_count = 8;
+    private $count = 8;
 
     /**
      * Retourne le nombre de poneys
@@ -13,7 +13,7 @@ class Poneys
      */
     public function getCount(): int
     {
-        return $this->_count;
+        return $this->count;
     }
 
     /**
@@ -25,7 +25,7 @@ class Poneys
      */
     public function removePoneyFromField(int $number): void
     {
-        $this->_count -= $number;
+        $this->count -= $number;
     }
 
     /**
