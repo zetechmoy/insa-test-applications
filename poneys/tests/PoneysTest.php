@@ -16,13 +16,13 @@ class PoneysTest extends TestCase
     public function testRemovePoneyFromField()
     {
         // Setup
-        $Poneys = new Poneys();
+        $poneys = new Poneys();
 
         // Action
-        $Poneys->removePoneyFromField(3);
+        $poneys->removePoneyFromField(3);
 
         // Assert
-        $this->assertEquals(5, $Poneys->getCount());
+        $this->assertEquals(5, $poneys->getCount());
     }
 }
 ?>
