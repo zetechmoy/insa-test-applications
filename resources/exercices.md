@@ -119,21 +119,20 @@ Vous utiliserez pour cela une tâche grunt.
 
 # TP 5 - Tests d’interface
 ## 1 Sélecteurs CSS
-Se connecter à l’adresse http://gwt.google.com/samples/Mail/Mail.html
-En utilisant le mode développeur de Chrome ou Firefox, trouvez les sélecteurs qui vous permettront de valider :
-‒ L’adresse email sélectionnée􏰀
-‒ La tâche “Get funding”􏰀
-‒ Le sujet du 5ème mail de la liste dans la liste des mails
-‒ Le sujet du 5ème mail dans l’en-tête du message
-‒ L’adresse mail de Bob Saget
+* Se connecter à l’adresse http://gwt.google.com/samples/Mail/Mail.html
+* En utilisant le mode développeur de Chrome ou Firefox, trouvez les sélecteurs qui vous permettront de valider :
+    * L’adresse email sélectionnée
+    * La tâche “Get funding”
+    * Le sujet du 5ème mail de la liste dans la liste des mails
+    * Le sujet du 5ème mail dans l’en-tête du message
+    * L’adresse mail de Bob Saget
 
 ## 2 webdriver : utilisation du framework webdriver.io (http://webdriver.io/)
-- faire fonctionner l’exemple décrit sur la page du projet (​http://webdriver.io/guide.html​)
+* faire fonctionner l’exemple décrit sur la page du projet (​http://webdriver.io/guide.html​)
 avec firefox (Attention à ce que le geckodriver soit compatible avec la version de firefox installée sur votre machine, au besoin prendre une version plus récente de webdriver + driver)
-- À partir de cette page ​http://todomvc.com/examples/react/
-- écrire un scénario :
-- comment tester que mon application fonctionne ?
-- comment valider les différentes fonctionnalités ?
-- présentez votre scénario avant l’implémentation
-- l’implémenter
-- Ajouter les tests dans votre outil d’intégration continue
+* À partir de cette page ​http://todomvc.com/examples/react/, écrire un scénario :
+    * comment tester que mon application fonctionne ?
+    * comment valider les différentes fonctionnalités ?
+    * présentez votre scénario avant l’implémentation
+    * l’implémenter
+    * Ajouter les tests dans votre outil d’intégration continue
