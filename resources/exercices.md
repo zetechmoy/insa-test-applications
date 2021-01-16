@@ -117,6 +117,12 @@ Vous utiliserez pour cela une tâche grunt.
 * Définir les termes suivants: FOUT - TTI - TTFP - Hero image
 * Expliquer fonctionne un navigateur pour effectuer le rendu d’une page web
 
+## Pour aller plus loin
+Mettre en place sur votre instance Jenkins un test automatisé de performance pour un site Web.
+Pour cela utiliser le projet [google lighthouse](https://github.com/GoogleChrome/lighthouse)
+Définir des Performance budget et les implémenter.
+Quelques pistes : https://css-tricks.com/continuous-performance-analysis-with-lighthouse-ci-and-github-actions/
+
 # TP 5 - Tests d’interface
 ## 1 Sélecteurs CSS
 * Se connecter à l’adresse http://gwt.google.com/samples/Mail/Mail.html
@@ -127,9 +133,8 @@ Vous utiliserez pour cela une tâche grunt.
     * Le sujet du 5ème mail dans l’en-tête du message
     * L’adresse mail de Bob Saget
 
-## 2 webdriver : utilisation du framework webdriver.io (http://webdriver.io/)
-* faire fonctionner l’exemple décrit sur la page du projet (​http://webdriver.io/guide.html​)
-avec firefox (Attention à ce que le geckodriver soit compatible avec la version de firefox installée sur votre machine, au besoin prendre une version plus récente de webdriver + driver)
+## 2 Automatisation avec webdriver : utilisation du framework webdriver.io (http://webdriver.io/)
+* Faire fonctionner l’exemple décrit sur la page du projet (https://webdriver.io/docs/gettingstarted.html)
 * À partir de cette page ​http://todomvc.com/examples/react/, écrire un scénario :
     * comment tester que mon application fonctionne ?
     * comment valider les différentes fonctionnalités ?
