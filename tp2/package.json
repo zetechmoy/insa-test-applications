@@ -6,5 +6,19 @@
   "repository": "https://github.com/erwandf/insa",
   "author": "EDF",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/mocha/bin/mocha tests/tests.js",
+    "build": "./node_modules/grunt/bin/grunt"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "grunt": "^1.3.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "mocha": "^8.2.1"
+  }
 }
