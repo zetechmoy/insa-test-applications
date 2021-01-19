@@ -53,15 +53,5 @@ class Poneys
     {
 
     }
-
-		/**
-		*Retourne TRUE si s'il reste de l'espace libre dans le champ
-		*
-		* @return boolean
-		*/
-		public function hasSlotLeft(): boolean
-		{
-			return $this->getCount() < 15;
-		}
 }
 ?>
